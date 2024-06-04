@@ -1,0 +1,135 @@
+*{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style : normal;
+}
+
+body{
+    background-color: gray;
+}
+h1 {
+    background-color: darkgray;
+    text-align: center;
+    border-color: black;
+    border-style: groove;
+    border-radius: 20px;
+}
+h2{
+    background-color: darkgray;
+    text-align: center;
+    border-color: black;
+    border-style: groove;
+    border-radius: 20px;
+
+}
+ul.commarcadores{
+    font-size: large;
+    font-family: "Oswald", sans-serif;
+    list-style-type: none;
+}
+ul.semmarcadores{
+    font-size: large;
+    font-family: "Oswald", sans-serif;
+    list-style-type: none;
+}
+#dadospessoais{
+    text-align: center;
+    font-size: large;
+    font-family: "Oswald", sans-serif;
+}
+#sobremim{
+    text-align: justify;
+    font-size: large;
+    font-family: "Oswald", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header{
+    background-color: gray;
+    border: none;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+}
+nav ul li a{
+    margin-right: 20px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+}
+
+.botoes{
+    background-color: darkgray;
+    border-color: black;
+    border-style: groove;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.botoes:hover{
+    background-color: wheat;
+}
+
+table{
+    width: 600px;
+    margin: 0 auto;
+}
+td, th{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px;
+}
+table thead{
+    background-color: darkgray;
+}
+table tbody{
+    background-color: dimgray;
+}
+td:hover{
+    background-color:wheat;
+}
+tr:hover{
+    background-color:wheat;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+footer {
+    background-color: gray; 
+    color: black;           
+    padding: 20px 0;        
+} 
+footer nav ul {
+    list-style-type: none; 
+    margin: 0;
+    text-align: center;    
+} 
+footer nav ul li {
+    display: inline-block; 
+    margin-right: 20px;    
+}
+
+
+
+
